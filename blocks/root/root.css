@@ -1,0 +1,16 @@
+.root {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  max-width: 1280px;
+  margin: 0 auto;
+  font-family: 'Inter', Arial, sans-serif;
+  box-sizing: border-box;
+
+}
+
+ @font-face {
+  font-family: 'Inter';
+ 
+  src: url(../../fonts/Inter-V.ttf)
+} 
