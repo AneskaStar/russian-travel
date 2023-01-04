@@ -1,0 +1,21 @@
+.cover__subtitle {
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 360px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  z-index: 4;
+  position: relative;
+
+}
+
+.cover__subtitle:hover {
+  opacity: 0.6;
+  transition: 1.5s ease;
+}
