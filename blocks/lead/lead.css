@@ -1,3 +1,7 @@
 .lead {
-  margin: 56px 280px 32px 280px
+  margin: 0 auto;
+  /* 56px 280px 32px 280px; */
+  max-width: 984px;
+  /* height: 862px; */
+
 }
