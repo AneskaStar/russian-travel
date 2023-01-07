@@ -1,6 +1,50 @@
 .lang-links__en {
-  font-family: "Inter";
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+  text-decoration-line: none;
   color: #FFFFFF;
-  text-decoration: none;
+  
+}
 
+@media screen and (max-width:320px) {
+  .lang-links__en {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.lang-links__ru {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+
+.logo {
+  max-width: 142px;
+  max-height: 42px;
+}
+}
+
+@media screen and (max-width:764px) {
+  .lang-links__en {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.lang-links__ru {
+  font-size: 24px;
+  line-height: 28px;
+  
+}
 }

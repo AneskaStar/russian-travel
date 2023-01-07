@@ -1,7 +1,30 @@
 .introduce {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  max-width: 690px;
+  width: 690px;
   margin-left: 148px;
 
+
+}
+
+@media screen and (max-width:768px) {
+
+  .introduce {
+    width: 720px;
+    margin:0 auto;
+
+ 
+
+  }
+}
+@media screen and (max-width:320px) {
+
+  .introduce {
+    width: 288px;
+    margin:0 auto;
+
+ 
+
+  }
 }

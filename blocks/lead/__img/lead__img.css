@@ -1,5 +1,33 @@
 .lead__img {
-  width: 100%;
+  /* display: block; */
+  margin: 0 auto;
+  max-width: 100%;
   margin-bottom: 8px;
  
 }
+
+/* 
+@media screen and (max-width:1024px) {
+  .lead__img {
+
+    max-width: 928px;
+ 
+  }
+}
+
+
+@media screen and (max-width:768px) {
+  .lead__img {
+
+    max-width: 100%;
+ 
+  }
+}
+
+@media screen and (max-width:320px) {
+  .lead__img {
+
+    max-width: 100%;
+ 
+  }
+} */

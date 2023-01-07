@@ -1,3 +1,20 @@
+@font-face {
+  font-family: 'Inter';
+  src: local("Inter"),
+    url(../../fonts/Inter-Regular.woff2) format(woff2),
+    url(../../fonts/Inter-Regular.woff) format(woff);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Inter-Bold';
+  src: local("Inter"),
+    url(../../fonts/Inter-Bold.woff2) format(woff2),
+    url(../../fonts/Inter-Bold.woff) format(woff);
+  font-weight: bold;
+}
+
+
 .root {
   margin: 0;
   padding: 0;
@@ -7,11 +24,9 @@
   font-family: 'Inter', Arial, sans-serif;
   box-sizing: border-box;
   background-color: #2A2C2F;
-
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
 }
-
- @font-face {
-  font-family: 'Inter';
- 
-  src: url(../../fonts/Inter-V.ttf)
-} 
