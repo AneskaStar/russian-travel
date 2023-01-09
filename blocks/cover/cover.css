@@ -1,11 +1,7 @@
 .cover {
-  box-sizing: border-box;
-  position: relative;
-  min-height: 740px; 
-  margin-top: 92px;
- 
+position: relative;
+max-width: 1180px;
+margin: 0 auto;
+margin-top: 92px;
 }
 
-.cover:hover {
-  color: brown;;
-}

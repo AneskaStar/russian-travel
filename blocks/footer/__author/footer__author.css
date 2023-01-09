@@ -1,0 +1,19 @@
+.footer__author {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding-left: 16px;
+  align-content: center;
+
+}
+
+.footer__author:hover {
+  opacity: 0.6;
+  transition: 1.5s ease;
+}

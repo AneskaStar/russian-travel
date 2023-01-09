@@ -7,44 +7,27 @@
   text-align: right;
   text-decoration-line: none;
   color: #FFFFFF;
-  
+
 }
 
-@media screen and (max-width:320px) {
-  .lang-links__en {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 20px;
+.lang-links__en:hover {
+  opacity: 0.6;
+  transition: 1.5s ease;
 }
 
-.lang-links__ru {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 20px;
-  text-align: right;
-  text-decoration-line: underline;
-  color: #FFFFFF;
-}
-
-.logo {
-  max-width: 142px;
-  max-height: 42px;
-}
-}
 
 @media screen and (max-width:764px) {
   .lang-links__en {
     font-size: 24px;
     line-height: 28px;
+  }
+
 }
 
-.lang-links__ru {
-  font-size: 24px;
-  line-height: 28px;
-  
-}
+@media screen and (max-width:320px) {
+  .lang-links__en {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
 }

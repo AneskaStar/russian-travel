@@ -2,11 +2,33 @@
   padding: 0;
   margin: 0;
   list-style: none;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: 'Inter-Bold';
   color: #FFFFFF;
   line-height: 18px;
   font-size: 12px;
   font-style: normal;
   font-weight: 700;
   margin-bottom: 92px;
+}
+
+
+@media screen and (max-width:768px) {
+
+  .introduce__list {
+
+  
+    margin-bottom: 88px;
+
+  }
+}
+
+@media screen and (max-width:320px) {
+
+  .introduce__list {
+    
+
+  
+    margin-bottom: 64px;
+
+  }
 }

@@ -2,8 +2,7 @@
   margin: 0 auto;
   margin-top: 32px;
   margin-bottom: 64px;
-
-  width: 640px;
+  max-width: 640px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -20,19 +19,34 @@
     margin-bottom: 56px;
   }
 }
-@media screen and (max-width:768x) {
+
+@media screen and (max-width:768px) {
   .lead__subtitle {
 
     margin-bottom: 56px;
   }
-
 }
+
+  @media screen and (max-width:700px) {
+    .lead__subtitle {
+  
+      max-width: 400px;
+      margin-bottom: 16px;
+      font-size: 23px;
+      line-height: 50px;
+      margin-bottom: 45px;
+    }
+  }
+
+
 @media screen and (max-width:320px) {
   .lead__subtitle {
 
-    width: 288px;
+    max-width: 288px;
     font-size: 16px;
     line-height: 20px;
+    margin-left: 16px;
+    margin-right: 16px;
     margin-bottom: 40px;
     margin-top: 0;
   }
