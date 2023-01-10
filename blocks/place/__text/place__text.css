@@ -1,6 +1,5 @@
-.footer__author {
-  margin: 0;
-  padding: 0;
+.place__text {
+  grid-area: text;
   font-family: 'Inter';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -9,16 +8,15 @@
   -moz-text-size-adjust: 100%;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 18px;
+  line-height: 163%;
   color: #FFFFFF;
-  text-decoration: none;
-  padding-left: 16px;
-  align-content: center;
 
 }
 
-.footer__author:hover {
-  opacity: 0.6;
-  transition: 1.5s ease;
+@media screen and (max-width:768px) {
+  .place__text {
+    font-size: 16px;
+  }
 }
+

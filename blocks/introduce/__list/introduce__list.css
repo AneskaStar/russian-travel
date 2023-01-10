@@ -3,6 +3,11 @@
   margin: 0;
   list-style: none;
   font-family: 'Inter-Bold';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
   color: #FFFFFF;
   line-height: 18px;
   font-size: 12px;
