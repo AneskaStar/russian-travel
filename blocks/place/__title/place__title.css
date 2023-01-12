@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   max-width: 460px;
-  font-family: 'Inter';
+  font-family: 'Inter-Black';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
@@ -12,9 +12,9 @@
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
-  line-height: 76px;
+  line-height: 1.05;
   color: #FFFFFF;
-  margin-bottom: 48px;
+  padding-bottom: 48px;
   margin-right: 40px;
 
 }
@@ -31,6 +31,10 @@
 @media screen and (max-width:320px) {
   .place__title {
     font-size: 32px;
-    line-height: 35px;
+    line-height: 1.09;
+    padding-bottom: 32px;
+    margin-right: 0;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

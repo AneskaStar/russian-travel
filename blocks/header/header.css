@@ -15,7 +15,6 @@
   .header {
     max-width: 928px;
     margin: 28px 48px 48px 48px;
-    /* column-gap: 675px; */
   }
 }
 
@@ -23,7 +22,6 @@
   .header {
     max-width: 720px;
     margin: 28px 24px 48px 24px;
-    /* column-gap: 467px; */
   }
 }
 

@@ -5,7 +5,7 @@
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
-  line-height: 58px;
+  line-height: 1.07;
   color: #FFFFFF;
   margin-bottom: 40px;
 
@@ -15,7 +15,7 @@
   .introduce__title {
 
     font-size: 38px;
-    line-height: 40px;
+  
   }
 }
 
@@ -23,6 +23,6 @@
   .introduce__title {
 
     font-size: 32px;
-    line-height: 35px;
+    line-height: 1.09;
   }
 }

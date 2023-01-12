@@ -2,6 +2,8 @@
   grid-area: web;
   margin: 0;
   padding: 0;
+  max-width: 456px;
+  max-height: 46px;
   font-family: 'Inter';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -11,11 +13,20 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 22px;
-  /* identical to box height, or 122% */
-
-  text-decoration-line: underline;
-
+  line-height: 1.2;
   color: #FFFFFF;
+  display: grid;
+  align-self: end;
+  padding-bottom: 48px;
+  
+}
 
+
+
+@media screen and (max-width:320px) {
+  .place__web {
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }

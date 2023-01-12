@@ -2,15 +2,14 @@
   margin-top: 0px;
   margin-bottom: 24px;
   margin-right: 48px;
- 
 }
 
- @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .footer__copyright {
 
     margin-right: 24px;
   }
-}  
+}
 
 @media screen and (max-width: 320px) {
   .footer__copyright {
@@ -18,4 +17,4 @@
     margin-top: 48px;
     margin-bottom: 24px;
   }
-} 
+}
