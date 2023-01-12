@@ -7,13 +7,17 @@
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 1.2;
-text-decoration-line: underline;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  text-decoration-line: underline;
 
-color: #FFFFFF;
+  color: #FFFFFF;
 
 
+}
+
+.place__link:hover {
+  cursor: pointer;
 }
