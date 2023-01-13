@@ -12,13 +12,8 @@
   font-size: 18px;
   line-height: 1.2;
   text-decoration-line: underline;
-<<<<<<< HEAD
   color: #FFFFFF;
 }
-=======
-
-  color: #FFFFFF;
->>>>>>> 408c58f8c8150b4e6e2d6a72ab4ec19aa37d61cb
 
 .place__link:hover {
   cursor: pointer; 
@@ -26,14 +21,6 @@
   transition: 1.5s ease;
 }
 
-<<<<<<< HEAD
 .place__link a {
   color: #FFFFFF;
 }
-=======
-}
-
-.place__link:hover {
-  cursor: pointer;
-}
->>>>>>> 408c58f8c8150b4e6e2d6a72ab4ec19aa37d61cb

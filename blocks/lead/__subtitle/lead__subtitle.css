@@ -34,19 +34,6 @@
   }
 }
 
-<<<<<<< HEAD
-=======
-  @media screen and (max-width:700px) {
-    .lead__subtitle {
-  
-      max-width: 400px;
-      font-size: 23px;
-      line-height: 2.17;
-      margin-bottom: 45px;
-    }
-  }
-
->>>>>>> 408c58f8c8150b4e6e2d6a72ab4ec19aa37d61cb
 
 @media screen and (max-width:320px) {
   .lead__subtitle {
