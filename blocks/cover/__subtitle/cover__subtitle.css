@@ -1,5 +1,12 @@
 .cover__subtitle {
+<<<<<<< HEAD
   font-family: 'Inter','Arial', serif;
+=======
+  padding: 0;
+  margin: 0 auto;
+  max-width: 360px;
+  font-family: 'Inter';
+>>>>>>> 408c58f8c8150b4e6e2d6a72ab4ec19aa37d61cb
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
