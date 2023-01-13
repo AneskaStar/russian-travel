@@ -4,7 +4,7 @@
   margin-top: 92px;
 }
 
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 600px) {
     .footer {
       margin-top: 64px;
       display: block;

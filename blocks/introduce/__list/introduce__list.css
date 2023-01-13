@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   list-style: none;
-  font-family: 'Inter-Bold';
+  font-family: 'Inter','Arial', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
@@ -16,24 +16,16 @@
   margin-bottom: 92px;
 }
 
-
 @media screen and (max-width:768px) {
 
   .introduce__list {
-
-  
     margin-bottom: 88px;
-
   }
 }
 
 @media screen and (max-width:320px) {
 
   .introduce__list {
-    
-
-  
     margin-bottom: 64px;
-
   }
 }

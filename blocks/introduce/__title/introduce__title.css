@@ -1,27 +1,24 @@
 .introduce__title {
   margin: 0;
   padding: 0;
-  font-family: 'Inter-Black';
+  font-family: 'Inter','Arial', serif;
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
   line-height: 1.07;
   color: #FFFFFF;
   margin-bottom: 40px;
-
 }
 
 @media screen and (max-width:700px) {
   .introduce__title {
-
     font-size: 38px;
-  
   }
 }
 
 @media screen and (max-width:320px) {
   .introduce__title {
-
+    max-width: 250px;
     font-size: 32px;
     line-height: 1.09;
   }

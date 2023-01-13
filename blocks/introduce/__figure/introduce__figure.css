@@ -1,0 +1,13 @@
+.introduce__figure {
+  font-family: 'Inter','Arial', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  color: #FFFFFF;
+  line-height: 1.5;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}

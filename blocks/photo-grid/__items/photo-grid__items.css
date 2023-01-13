@@ -11,6 +11,7 @@
   margin-right: 48px;
   margin-left: 48px;
   max-width: 1184px;
+  margin-bottom: 92px;
 }
 
 @media screen and (max-width:1024px) {
@@ -24,8 +25,7 @@
     margin-left: 24px;
     margin-right: 24px;
     gap: 16px;
-  
-  
+    margin-bottom: 88px;
   }
 }
 
@@ -34,5 +34,7 @@
     margin-left: 16px;
     margin-right: 16px;
     gap: 12px;
+    margin-bottom: 14px;
+    grid-template-columns: repeat(auto-fit, minmax(288px,1fr));
   }
 } 

@@ -1,0 +1,26 @@
+.place__text.css {
+  margin: 0;
+  padding: 0;
+  max-width: 484px;
+}
+
+@media screen and (max-width:1024px) {
+  .place__text.css {
+    max-width: 456px;
+  }
+  
+}
+
+@media screen and (max-width:768px) {
+  .place__text.css {
+    max-width: 352px;
+  }
+  
+}
+
+@media screen and (max-width:600px) {
+  .place__text.css {
+    max-width: 288px;
+  }
+  
+}

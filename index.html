@@ -13,8 +13,8 @@
     <header class="header">
       <img class="logo" src="./images/header-logo.svg" alt="Логотип">
       <ul class="lang-links">
-        <li> <a class="lang-links__ru lang-links__ru_type_underline" href="#" target="_blank">Ru</a></li>
-        <li><a class="lang-links__en" href="#" target="_blank">En</a></li>
+        <li> <a class="lang-links__link lang-links__link_active" href="#" target="_blank">Ru</a></li>
+        <li><a class="lang-links__link " href="#" target="_blank">En</a></li>
       </ul>
 
     </header>
@@ -37,11 +37,13 @@
           выбрали и описали некоторые интересные места, достойные вашего отпуска.
         </p>
         <ul class="introduce__list">
-          <li class="introduce__lists">Часовых поясов 11</li>
-          <li class="introduce__lists">Объектов природного наследия ЮНЕСКО 12</li>
-          <li class="introduce__lists">Объектов культурного наследия ЮНЕСКО 16</li>
-          <li class="introduce__lists">Природных заповедников 105</li>
-          <li class="introduce__lists">Аэропортов 241</li>
+          <li class="introduce__lists">Часовых поясов <span class="introduce__figure">11</span></li>
+          <li class="introduce__lists">Объектов природного наследия ЮНЕСКО <span class="introduce__figure">12</span>
+          </li>
+          <li class="introduce__lists">Объектов культурного наследия ЮНЕСКО <span class="introduce__figure">16</span>
+          </li>
+          <li class="introduce__lists">Природных заповедников <span class="introduce__figure">105</span></li>
+          <li class="introduce__lists">Аэропортов <span class="introduce__figure">241</span></li>
         </ul>
       </section>
       <section class="photo-grid">
@@ -66,7 +68,7 @@
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__web">
             <p class="place__url-heading">URL</p>
-            <p class="place__link">park-kosa.ru</p>
+            <p class="place__link"><a href="http://park-kosa.ru" target="_blank">park-kosa.ru</a></p>
           </div>
           <img class="place__img" src="./images/place-kosa.jpg" alt="Куршская коса">
           <div class="place__text">
@@ -87,7 +89,8 @@
           <h2 class="place__title">Кольский</h2>
           <div class="place__web">
             <p class="place__url-heading">URL</p>
-            <p class="place__link">National Geographic</p>
+            <p class="place__link"><a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+                target="_blank">National Geographic</a></p>
           </div>
           <img class="place__img" src="./images/place-kolsky.jpg" alt="Кольский">
           <div class="place__text">
@@ -107,7 +110,8 @@
           <h2 class="place__title">Алтай</h2>
           <div class="place__web">
             <p class="place__url-heading">URL</p>
-            <p class="place__link">YouTube</p>
+            <p class="place__link"><a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" target="_blank">YouTube
+              </a></p>
           </div>
           <img class="place__img" src="./images/place-altai.jpg" alt="Алтай">
           <div class="place__text">
@@ -126,7 +130,7 @@
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__web">
             <p class="place__url-heading">URL</p>
-            <p class="place__link">https://vk.com/baikalmile</p>
+            <p class="place__link"><a href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a></p>
           </div>
           <img class="place__img" src="./images/place-winter-baikal.jpg" alt="Лёд на зимнем Байкале">
           <div class="place__text">
@@ -143,7 +147,7 @@
           <h2 class="place__title">Карелия</h2>
           <div class="place__web">
             <p class="place__url-heading">URL</p>
-            <p class="place__link">http://vodlozero.ru/</p>
+            <p class="place__link"> <a href="http://vodlozero.ru" target="_blank">http://vodlozero.ru</a></p>
           </div>
           <img class="place__img" src="./images/place-karelia.jpg" alt="Куршская коса">
           <div class="place__text">
@@ -159,59 +163,24 @@
         </article>
       </section>
       <section class="cover">
-        <img class="cover__background" src="./images/cover-trains.jpg" alt="Обложка станции поезда">
-        <h2 class="cover__title">До Байкала «на собаках»</h2>
+        <h2 class="cover__title"><a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">До Байкала
+            «на собаках»</a></h2>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
           электричках.</p>
 
       </section>
-
-      Не получается сделать секцию через background. Картинка оберзается при масштабировании. Не понимаю, что не
-      учитываю. Буду рада наводке, что можно еще почитать.
-      <!-- <section class="cover"> 
-        <h2 class="cover__title">До Байкала «на собаках»</h2>
-        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
-          электричках.</p>
-  
-      </section>
-      .cover {
-  
-  background-image: url(../images/cover-trains.jpg);
-  background-size: cover;
-  background-attachment: fixed; 
-  color: white;
-  padding: 245px 312px;
-  position: relative;
-}
-
-.cover:hover {
-  opacity: 0.8;
-  transition: 1.5s ease;
-}
-
-.cover::before {
-  content: "";
-  position: absolute;
-  background: rgba(0,0, 0, 0.5);
-  width: 100%;
-  top: 0;
-  bottom: 0;
-  left: 0;
-
-}
-
-
-      -->
     </main>
 
     <footer class="footer">
-      <ul class="footer__links">
-        <li><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
-        <li><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
-        <li><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
-        <li><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
-        <li><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
-      </ul>
+      <nav class="footer__navigation">
+        <ul class="footer__links">
+          <li class="footer__item"><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+          <li class="footer__item"><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+          <li class="footer__item"><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+          <li class="footer__item"><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+          <li class="footer__item"><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
+        </ul>
+      </nav>
       <p class="footer__copyright"><a href="https://aneskastar.github.io/russian-travel/" class="footer__author"
           target="_blank"> &copy; 2020. Анна Старшинина</a></p>
     </footer>
