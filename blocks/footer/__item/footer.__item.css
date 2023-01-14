@@ -1,5 +1,9 @@
 @media screen and (max-width: 600px) {
-.footer__item {
+  .footer__item {
     margin-bottom: 32px;
-}
+  }
+
+  .footer__item:last-child {
+    margin-bottom: 48px;
+  }
 }
