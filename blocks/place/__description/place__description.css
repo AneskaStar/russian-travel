@@ -28,12 +28,7 @@
     font-size: 16px;
     margin-bottom: 25px;
   }
-
-  .place__description:last-child {
-    font-size: 16px;
-  }
 }
-
 
 @media screen and (max-width:600px) {
   .place__description {
@@ -45,6 +40,5 @@
   .place__description:last-child {
     padding-left: 16px;
     padding-right: 16px;
-    margin-bottom: 0px;
   }
 }

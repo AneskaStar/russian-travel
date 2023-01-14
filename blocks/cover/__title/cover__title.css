@@ -16,17 +16,11 @@
 
 }
 
-.cover__title a {
-  color: #FFFFFF;
-  text-decoration: none;
-}
-
-
 @media screen and (max-width:600px) {
   .cover__title {
     max-width: 320px;
     font-size: 32px;
-    line-height: 109%;
+    line-height: 1.09;
     text-align: center;
   }
 
@@ -34,9 +28,6 @@
 @media screen and (max-width:320px) {
   .cover__title {
     max-width: 255px;
-    font-size: 32px;
-    line-height: 109%;
-    text-align: center;
   }
 
 }
